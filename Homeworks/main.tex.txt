@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[russian]{babel}
+\usepackage{hyperref}
+
+
+\title{Мини-конспект по теме: Теорема Пифагора}
+\author{Я сам}
+\date{16 июля 2025 г.}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Введение}
+Теорема Пифагора - одна из важнейших теорем евклидовой геометрии. Она находит применение в самых разных областях.
+\begin{itemize}
+    \item геометрия и тригонометрия
+    \item физика
+    \item инженерные расчеты
+    \item компьютерная графика
+\end{itemize}
+
+\section{Формулировка теоремы}
+\textbf{Слова:}
+В прямоугольном треугольнике квадрат гипотенузы равен сумме квадратов катетов.
+\newline
+\begin{equation}
+\label{1}
+    c^2=a^2+b^2
+\end{equation}
+Как видно из формулы 
+\ref{1}
+знание двух сторон позволяет найти третью.
+
+\section{Доказательство (набросок)}
+\begin{flushright}
+ Одно из доказательств основывается на площади квадрата, составленного из четырех одинаковых прямоугольных треугольникови малого квадрата в центре. Раскладывая площадь двумя способами, получаем $с^2 = a^2 + b^2$.
+\end{flushright}
+\section{Примеры расчета}
+\subsection*{Пример 1}
+\begin{center}
+    a = 3, b = 4
+    \newline
+    \[
+    c=\sqrt{a^2+b^2}=\sqrt{9+6}=5
+    \]
+\end{center}
+\subsection*{Пример 2}
+\begin{enumerate}
+    \item Дано: а=5, b=12
+    \item Решение:
+\end{enumerate}
+\begin{center}
+    $c=\sqrt{5^2+12^2}=\sqrt{25+144}=13$
+\end{center}
+\section{Таблица значений}
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Катет а & Катет b & Гипотенуза с \\
+    \hline
+    3 & 4 & 5\\
+    \hline
+    5 & 12 & 13\\
+    \hline
+    7 & 24 & 25\\
+    \hline
+    \end{tabular}
+\end{center}
+\section{Иллюстрация}
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{triangle.png}
+\end{center}
+\section{Заключение}
+Теорема Пифагора - один из краеугольных камней геометрии, помогающий решать множество практических задач.
+\section{Ссылки и литература}
+\begin{itemize}
+    \item Википедия: Теорема Пифагора
+    \item Классические учебники геометрии
+\end{itemize}
+\end{document}
