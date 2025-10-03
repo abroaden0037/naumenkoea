@@ -25,7 +25,9 @@ def search():
         print(i)
         break
 def close():
-    pass
+    file = open("notes.txt",'r', encoding = "utf-8")
+    print("Thank you, bye bye")
+    file.close()
 def show():
     file = open("notes.txt",'r', encoding = "utf-8")
     print(file.read())
@@ -49,6 +51,7 @@ def interface():
               search()
           case "4":
               close()
+              break
           case "5":
               show()
           case _:
