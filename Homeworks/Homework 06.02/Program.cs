@@ -50,4 +50,5 @@ class Ward : Character
     {
         Console.WriteLine("Ward attacked");
     }
+
 }
